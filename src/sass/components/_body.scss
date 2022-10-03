@@ -1,5 +1,7 @@
 body {
+  width: min(100% - 2rem, 60ch);
   margin-inline: auto;
   font-family: var(--font-sans);
-  padding-block: 2rem;
+  display: grid;
+  gap: 2rem;
 }
