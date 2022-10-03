@@ -3,9 +3,11 @@
 .hero {
   display: grid;
   gap: 2rem;
+  text-align: center;
 }
 
 .hero img {
   display: block;
   max-width: 100%;
+  justify-content: center;
 }

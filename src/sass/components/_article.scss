@@ -1,10 +1,13 @@
 .poem_title,
 .author_name {
   padding-block: 0.25rem;
+  text-align: center;
 }
 
 .poem_full {
   padding-block-start: 2rem;
   display: grid;
   gap: 2rem;
+  justify-content: left;
+  padding-inline: 1rem;
 }
